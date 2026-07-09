@@ -17,6 +17,7 @@ The repository is organized by topics:
 - **Chapter 09_Pointers** - Pointer concepts and memory management
 - **Chapter 10_BinarySearch** - Binary search algorithms
 - **TaskOnArrays** - Array-based problem solving
+- **Object Oriented Programming** - Covered All the Required Things
 
 ## 🎯 Goals
 
