@@ -18,6 +18,12 @@ public: //Constructor should always be Public
         this->name = name; 
         this->dept = dept;
     } 
+    //Copy Constructor
+    Teacher(Teacher &orgObj){
+        cout << "I am Copy Constructor\n";
+        this->name = orgObj.name; 
+        this->dept = orgObj.dept;
+    }
     void getInfo(){
         cout << "Name of Teacher: " << name << endl;
         cout << "Department of Teacher: " << dept << endl;
